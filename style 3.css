@@ -1,0 +1,132 @@
+body
+{
+  background: pink;
+}
+#bac1
+{
+	 width: 900px;
+     margin: auto;
+   font-family:serif;
+}
+section
+{
+	font-size: 1.2em;
+}
+section
+h1
+{
+     color: blue;
+	text-shadow: 5px 5px 5px black;
+	font-size: 1.1em;
+	font-family: verdana;
+    text-align:center;	
+}
+
+#banniere_image
+{
+	margin-top: 10px;
+	height: 200px;
+	border-radius: 5px;
+	background: url('photos/bac1 IG.jpg');
+	position: relative;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+}
+
+{
+	#banniere_image
+	{
+		display: none;
+	}
+}
+
+#banniere_description
+{
+	position: absolute;
+	bottom: 0;
+	border-radius: 0px 0px 5px 5px;
+	width: 99.5%;
+	height: 33px;
+	padding-top: 15px;
+	padding-left: 4px;
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	font-size: 0.8em;
+}
+
+
+footer
+.bouton_rouge
+{
+	display: inline-block;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	background-color: maroon;
+	border: 1px solid #760001;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 3px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+}
+
+.bouton_rouge img
+{
+	border: 0;
+}
+
+.bouton_jaune
+{
+	display: inline-block;
+	height: 25px;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	background-color: re;
+	border: 1px solid #760001;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 3px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+}
+
+.bouton_jaune img
+{
+	border: 0;
+}
+a
+{
+	text-decoration:none;
+	color: white;
+	font-style: italic;
+}
+a:hover
+{
+	text-decoration:none;
+	color:green;
+}
+
+
+#pied
+{
+
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+}
+
+#equipe
+{
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	font-size: 1.1em;
+	font-family: verdana;
+    text-align:center;
+}
